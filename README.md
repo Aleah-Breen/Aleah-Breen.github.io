@@ -1,6 +1,8 @@
 ## My Project
 In this project, I applied machine learning techniques in order to determine how the variables linked with lifestyle and workout may be utilized to forecast the number of calories burned throughout the exercise periods. The report outlined below details my method of approach and findings.
+
 ***
+
 ## Introduction
 Proper calculation of the calorie burned in the exercises would be vital in planning exercises, weight loss and individual health evaluation. Simple kinds of estimation like formulas or algorithms in a fitness tracker do not turn out to be very exact when it comes to human physiology. The amount of calories burned will add to several variables, such as the rate of the heartbeat, exercise length, body structure, fitness and kind of exercise taken. Considering the complexities, I sought to come up with a more accurate and data-oriented model that happens to be machine learning-based.
 
