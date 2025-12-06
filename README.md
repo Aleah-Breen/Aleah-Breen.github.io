@@ -1,4 +1,4 @@
-## My Project <img align="right" width="220" height="220" src="/assets/IMG/workoutstats.png">
+## My Project <img align="right" width="220" height="220" src="/assets/IMG/workoutstats.jpg">
 In this project, I applied machine learning techniques in order to determine how the variables linked with lifestyle and workout may be utilized to forecast the number of calories burned throughout the exercise periods. The report outlined below details my method of approach and findings.
 
 ***
