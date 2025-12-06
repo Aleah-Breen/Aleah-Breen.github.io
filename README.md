@@ -71,4 +71,4 @@ Continuous heart-rate data, deep learning model, and hyperparameter tuning could
 
 [Code](https://colab.research.google.com/drive/1kPUHjUCvFjw2fYSHncqKHjmj31m1aJJm?usp=sharing)
 
-[Dataset](https://www.markdownguide.org/basic-syntax/](https://www.kaggle.com/datasets/jockeroika/life-style-data/data)
+[Dataset](https://www.kaggle.com/datasets/jockeroika/life-style-data/data)
