@@ -40,12 +40,20 @@ predictions = model.predict(X_test_scaled)
 
 ## Results
 I also checked the models on Matthean Squared Error (MSE), root mean squared error (RMSE), and the coefficient of determination (R2). Linear Regression achieved the best output of a R2 of 0.6666 and RMSE of 288.36. Close behind was Gradient Boosting with an R 2 of 0.6622. Conversely, the simpler Linear Regression and more focused Gradient Boosting algorithm did the simplest and more specific operation and thus were more productive in this task than the more complex ensemble procedures such as Random Forest (R2 of 0.6519) and XGBoost (R2 of 0.6469).
+![](assets/IMG/datatable.png){: width="500" }
 
 The scatter plots were made to compare the actual versus model prediction of calorie in the models. Such plots demonstrate the proximity of the approximations with the actual results.
+![](assets/IMG/AP_LR.png){: width="500" }
+![](assets/IMG/AP_RF.png){: width="500" }
+![](assets/IMG/AP_GB.png){: width="500" }
+![](assets/IMG/AP_X.png){: width="500" }
 
 The plots of feature importance were created, always showing the predictors of calorie burn as the maximum BPM, average BPM, and session duration. Such findings are consistent with general physiological laws, according to which the intensity and the duration of an exercise are the key determinants of energy utilization.
+![](assets/IMG/top_RF.png){: width="500" }
+![](assets/IMG/top_X.png){: width="500" }
 
 The gradient boosting model also sketched a learning curve, which was used to determine how the training performance improved with each iteration and also to ensure possible overfitting.
+![](assets/IMG/GBLC.png){: width="500" }
 
 ***
 
