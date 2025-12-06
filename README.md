@@ -25,6 +25,14 @@ working out as well as calories burned, whereas such static characteristics as a
 As a method to model the calorie expenditure, I applied four supervised regression models, namely, Linear Regression, Random Forest, Gradient Boosting, and XGBoost. Linear Regression was taken as a baseline model to estimate the linear terms of features and calorie output. More elaborated, non-linear interactions were modeled using random forest. Gradient Boosting also enhanced predictions by refining on residual errors thus it is appropriate to data that is moderately non-linear. XGBoost implemented the optimal boosting structure to achieve the additional rapidity and precision.
 
 All the models were trained on the standardized training data, and the test set was predicted. Below is an example of a code that is used to train the Gradient Boosting model.
+```python
+from sklearn.ensemble import GradientBoostingRegressor
+
+model = GradientBoostingRegressor(random_state=42)
+model.fit(X_train_scaled, y_train)
+predictions = model.predict(X_test_scaled)
+
+```
 
 ***
 
@@ -134,3 +142,73 @@ To make this simple, you can write the report using a word processor or Latex, t
 ### Code
 
 A link to your code must be submitted on BruinLearn, and the course instructor must be able to download your code to mark it. The code could be in a Google Colab notebook (make sure to *share* the notebook so access is set to **Anyone with the link**), or you could upload the code into a separate GitHub repository, or you could upload the code into the `assets` directory of your website and link to it. 
+
+
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+## My Project
+
+I applied machine learning techniques to investigate... Below is my report.
+
+***
+
+## Introduction 
+
+Here is a summary description of the topic. Here is the problem. This is why the problem is important.
+
+There is some dataset that we can use to help solve this problem. This allows a machine learning approach. This is how I will solve the problem using supervised/unsupervised/reinforcement/etc. machine learning.
+
+We did this to solve the problem. We concluded that...
+
+## Data
+
+Here is an overview of the dataset, how it was obtained and the preprocessing steps taken, with some plots!
+
+![](assets/IMG/datapenguin.png){: width="500" }
+
+*Figure 1: Here is a caption for my diagram. This one shows a pengiun [1].*
+
+## Modelling
+
+Here are some more details about the machine learning approach, and why this was deemed appropriate for the dataset. 
+
+<p>
+When \(a \ne 0\), there are two solutions to \(ax^2 + bx + c = 0\) and they are
+  \[x = {-b \pm \sqrt{b^2-4ac} \over 2a}.\]
+</p>
+
+The model might involve optimizing some quantity. You can include snippets of code if it is helpful to explain things.
+
+```python
+from sklearn.ensemble import ExtraTreesClassifier
+from sklearn.datasets import make_classification
+X, y = make_classification(n_features=4, random_state=0)
+clf = ExtraTreesClassifier(n_estimators=100, random_state=0)
+clf.fit(X, y)
+clf.predict([[0, 0, 0, 0]])
+```
+
+This is how the method was developed.
+
+## Results
+
+Figure X shows... [description of Figure X].
+
+## Discussion
+
+From Figure X, one can see that... [interpretation of Figure X].
+
+## Conclusion
+
+Here is a brief summary. From this work, the following conclusions can be made:
+* first conclusion
+* second conclusion
+
+Here is how this work could be developed further in a future project.
+
+## References
+[1] DALL-E 3
+
+[back](./)
+
+
