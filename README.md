@@ -69,5 +69,6 @@ Overall, the best predictors of calories burned based on workout and lifestyle d
 
 Continuous heart-rate data, deep learning model, and hyperparameter tuning could be used in the future, or the dataset could be expanded to enhance the generalizability.
 
-[Code]([https://www.markdownguide.org/basic-syntax/](https://colab.research.google.com/drive/1kPUHjUCvFjw2fYSHncqKHjmj31m1aJJm?usp=sharing)).
-[Dataset]([https://www.markdownguide.org/basic-syntax/](https://www.kaggle.com/datasets/jockeroika/life-style-data/data)).
+[Code](https://colab.research.google.com/drive/1kPUHjUCvFjw2fYSHncqKHjmj31m1aJJm?usp=sharing)
+
+[Dataset](https://www.markdownguide.org/basic-syntax/](https://www.kaggle.com/datasets/jockeroika/life-style-data/data)
