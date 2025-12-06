@@ -15,6 +15,8 @@ The initial sample was composed of demographic information, nutritional facts, d
 
 I started by performing preprocessing tasks that included: 1) finding numeric features, 2) filling-in the gaps with the means of columns, and 3) standardising the data with the StandardScaler that implemented the job of normalising the input distributions. I then divided the data into sets of training and test at 80/20. In the context of my exploratory data analysis, I have created a correlation heatmap, in which it occurred that the strongest predictors of calories burned were maximum and average BPM, and session duration. On the other hand, there was weak or no correlation between demographics like age and height.
 
+![](assets/IMG/heatmap.png){: width="500" }
+
 Figure Caption:
 This heatmap indicates correlation of numeric features. There is a strong positive correlation between heart rate indicators and time spent 
 working out as well as calories burned, whereas such static characteristics as age do not seem to have any significant impact.
